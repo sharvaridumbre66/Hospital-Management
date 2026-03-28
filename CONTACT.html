@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f4f8fb;
+}
+
+/* Navbar */
+
+header{
+background:linear-gradient(90deg,#0077b6,#00b4d8);
+padding:15px 40px;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav h2{
+color:white;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:25px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* Title */
+
+.title{
+text-align:center;
+padding:40px;
+font-size:35px;
+font-weight:bold;
+color:#0077b6;
+}
+
+/* Contact Section */
+
+.contact-container{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+padding:30px;
+}
+
+.contact-info{
+background:white;
+padding:25px;
+width:300px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contact-info p{
+margin:10px 0;
+}
+
+/* Form */
+
+form{
+background:white;
+padding:25px;
+width:320px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+input, textarea{
+width:100%;
+padding:10px;
+margin-top:5px;
+margin-bottom:15px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+button{
+width:100%;
+padding:10px;
+background:#0077b6;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#023e8a;
+}
+
+/* Map */
+
+.map{
+padding:30px;
+text-align:center;
+}
+
+iframe{
+width:80%;
+height:350px;
+border:0;
+border-radius:10px;
+}
+
+/* Footer */
+
+footer{
+background:#023e8a;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:30px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<h2>🏥 SmartCare Hospital</h2>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="doctors.html">Doctors</a></li>
+<li><a href="departments.html">Departments</a></li>
+<li><a href="appointment.html">Appointment</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+</nav>
+
+</header>
+
+
+<div class="title">
+Contact Us
+</div>
+
+
+<div class="contact-container">
+
+<div class="contact-info">
+
+<h3>Hospital Contact</h3>
+
+<p>📍 Address: Pune, Maharashtra</p>
+<p>📞 Phone: +91 9876543210</p>
+<p>📧 Email: smartcarehospital@gmail.com</p>
+
+</div>
+
+
+<form>
+
+<label>Name</label>
+<input type="text" placeholder="Enter your name">
+
+<label>Email</label>
+<input type="email" placeholder="Enter your email">
+
+<label>Message</label>
+<textarea rows="4" placeholder="Your message"></textarea>
+
+<button>Send Message</button>
+
+</form>
+
+</div>
+
+
+<div class="map">
+
+<h2>Our Location</h2>
+
+<iframe src="https://www.google.com/maps?q=Pune&output=embed"></iframe>
+
+</div>
+
+
+<footer>
+<p>© 2026 SmartCare Hospital</p>
+</footer>
+
+</body>
+</html>

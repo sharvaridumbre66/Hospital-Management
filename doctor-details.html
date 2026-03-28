@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Doctors</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f4f8fb;
+}
+
+/* Navbar */
+
+header{
+background:linear-gradient(90deg,#0077b6,#00b4d8);
+padding:15px 40px;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav h2{
+color:white;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:25px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* Title */
+
+.title{
+text-align:center;
+padding:40px;
+font-size:35px;
+font-weight:bold;
+color:#0077b6;
+}
+
+/* Doctors Section */
+
+.doctors{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;
+padding:30px;
+}
+
+.card{
+background:white;
+width:250px;
+padding:20px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+margin-bottom:10px;
+}
+
+.card h3{
+color:#0077b6;
+margin-bottom:5px;
+}
+
+.card p{
+font-size:14px;
+margin-bottom:5px;
+}
+
+button{
+background:#0077b6;
+color:white;
+border:none;
+padding:8px 15px;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#023e8a;
+}
+
+/* Footer */
+
+footer{
+background:#023e8a;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<h2>🏥 SmartCare Hospital</h2>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="doctors.html">Doctors</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Appointment</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+
+</nav>
+
+</header>
+
+
+<div class="title">
+Our Expert Doctors
+</div>
+
+
+<section class="doctors">
+
+<div class="card">
+<img src="https://randomuser.me/api/portraits/men/32.jpg">
+<h3>Dr. Rahul Sharma</h3>
+<p>Cardiologist</p>
+<p>Experience: 10 Years</p>
+<button>Contact</button>
+</div>
+
+<div class="card">
+<img src="https://randomuser.me/api/portraits/women/44.jpg">
+<h3>Dr. Neha Patel</h3>
+<p>Dentist</p>
+<p>Experience: 8 Years</p>
+<button>Contact</button>
+</div>
+
+<div class="card">
+<img src="https://randomuser.me/api/portraits/men/75.jpg">
+<h3>Dr. Amit Mehta</h3>
+<p>Neurologist</p>
+<p>Experience: 12 Years</p>
+<button>Contact</button>
+</div>
+
+<div class="card">
+<img src="https://randomuser.me/api/portraits/women/68.jpg">
+<h3>Dr. Priya Kapoor</h3>
+<p>Pediatrician</p>
+<p>Experience: 9 Years</p>
+<button>Contact</button>
+</div>
+
+</section>
+
+
+<footer>
+<p>© 2026 SmartCare Hospital</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book Appointment</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f4f8fb;
+}
+
+/* Navbar */
+
+header{
+background:linear-gradient(90deg,#0077b6,#00b4d8);
+padding:15px 40px;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav h2{
+color:white;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:25px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* Title */
+
+.title{
+text-align:center;
+padding:40px;
+font-size:35px;
+font-weight:bold;
+color:#0077b6;
+}
+
+/* Form */
+
+.container{
+display:flex;
+justify-content:center;
+padding:30px;
+}
+
+form{
+background:white;
+padding:30px;
+width:350px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+form label{
+font-weight:bold;
+}
+
+form input, form select{
+width:100%;
+padding:10px;
+margin-top:5px;
+margin-bottom:15px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+button{
+width:100%;
+padding:12px;
+background:#0077b6;
+color:white;
+border:none;
+border-radius:5px;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+background:#023e8a;
+}
+
+/* Footer */
+
+footer{
+background:#023e8a;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:30px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<h2>🏥 SmartCare Hospital</h2>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="doctors.html">Doctors</a></li>
+<li><a href="departments.html">Departments</a></li>
+<li><a href="appointment.html">Appointment</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+</nav>
+
+</header>
+
+
+<div class="title">
+Book an Appointment
+</div>
+
+
+<div class="container">
+
+<form>
+
+<label>Patient Name</label>
+<input type="text" placeholder="Enter your name">
+
+<label>Email</label>
+<input type="email" placeholder="Enter email">
+
+<label>Phone</label>
+<input type="tel" placeholder="Enter phone number">
+
+<label>Select Department</label>
+<select>
+<option>Cardiology</option>
+<option>Neurology</option>
+<option>Orthopedics</option>
+<option>Dentistry</option>
+<option>Pediatrics</option>
+</select>
+
+<label>Select Doctor</label>
+<select>
+<option>Dr. Rahul Sharma</option>
+<option>Dr. Neha Patel</option>
+<option>Dr. Amit Mehta</option>
+</select>
+
+<label>Appointment Date</label>
+<input type="date">
+
+<label>Message</label>
+<input type="text" placeholder="Your problem">
+
+<button type="submit">Book Appointment</button>
+
+</form>
+
+</div>
+
+
+<footer>
+<p>© 2026 SmartCare Hospital</p>
+</footer>
+
+</body>
+</html>
